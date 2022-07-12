@@ -1,10 +1,19 @@
+### 依赖安装
+
 ```
 pip install Flask
 pip install flask_cors
 
 pip install flask-sqlalchemy
 pip install pymysql
+
+pip install flask-socketio
+
+pip install pycryptodome
+pip install PyJWT
 ```
+
+### 项目特点
 
 ```
 跨域
@@ -15,7 +24,6 @@ pip install pymysql
 
 AES接口加密校验
 Jwt用户登录安全认证
-Swagger接口管理
 WebSokect即时通讯
 数据库CRUD
 ```
